@@ -7,11 +7,11 @@ import java.util.Scanner;
         
         Scanner scan=new Scanner (System.in);
 
-        System.out.println("Enter a number");
-        int num=scan.nextInt();
+        System.out.println("Enter a Words");
+        String Word=scan.next();
       
         
-        StringBuffer sb=new StringBuffer(String.valueOf(num));
+        StringBuffer sb=new StringBuffer(String.valueOf(Word));
          StringBuffer rev=sb.reverse();
         System.out.println("Reverse of the number is:"+rev);
         
