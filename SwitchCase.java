@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SwitchCase {
+public class  SwitchCase {
      public static void main(String args[]){
         Scanner Vowel=new Scanner (System.in);
         System.out.println("Enter a character : ");
